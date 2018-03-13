@@ -22,7 +22,7 @@ function renderQuestion(question) {
 }
 
 $(document).ready(function() {
-    fetch("/js/questions.json")
+    fetch("js/questions.json")
     .then((response) => response.json())
     .then((questions) => {
         const index = getRandomInt(questions.length);
