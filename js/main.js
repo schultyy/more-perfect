@@ -17,8 +17,8 @@ function getRandomInt(max) {
 
 function renderQuestion(question) {
     const questionElement = $(`<div>${question}</div>`);
-    $(questionElement).addClass('question');
-    $(".body").append(questionElement);
+    $(questionElement).addClass('text');
+    $(".question").append(questionElement);
 }
 
 $(document).ready(function() {
